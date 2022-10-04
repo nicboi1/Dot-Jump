@@ -18,6 +18,7 @@ Planned Complexities
 1. Nokia 5110 LCD: Where the game takes place
 
 2 and 3. Fan Blade and Motor: Fan is either on (1 speed) or off instead of off and on with increasing speeds
+
 # Additional Complexities (These were added as they were needed to make the other complexities work)
 4. Power Supply Module: To power the motor
 5. L293D: Control motor
@@ -61,34 +62,34 @@ The user can start the game again through the reset button.
 
 # Hardware Components:
 
-UNO R3 Controller Board
+	UNO R3 Controller Board
 
-USB Cable
+	USB Cable
 
-Nokia 5110 LCD
+	Nokia 5110 LCD
 
-Fan blade and 3-6V motor
+	Fan blade and 3-6V motor
 
-Power Supply Module
+	Power Supply Module
 
-L293D
+	L293D
 
-Wires
+	Wires
 
-3 buttons
+	3 buttons
 
-Potentiometer
+	Potentiometer
 
 
-Buzzer
+	Buzzer
 
-7 10k Ohm resistors
+	7 10k Ohm resistors
 
-1 1k Ohm resistor
+	1 1k Ohm resistor
 
-1 330 Ohm resistor
+	1 330 Ohm resistor
 
-1 100 Ohm resistor
+	1 100 Ohm resistor
 
 
 # Software Libraries Used
