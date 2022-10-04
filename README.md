@@ -61,64 +61,54 @@ Buzzer
 PCD8544.h: This library is used so arduino can interact with the Nokia 5110 LCD. It’s used just as the library for the lcd given in class, just for this specific LCD. For example, lcd.setCursor(), lcd.print(), and delay() are all used the same as previously used LCD libraries
 
 # Wiring Diagram		 	 	 		
-			 		
-
 	
 ![Screen Shot 2022-10-04 at 3 30 11 PM Small](https://user-images.githubusercontent.com/86252234/193943664-f6ba0920-94a4-47c2-b3d9-7efa4443f385.jpeg)
 
-
 	 	 	 		
-					 			
+![Screen Shot 2022-10-04 at 3 40 01 PM Small](https://user-images.githubusercontent.com/86252234/193943803-92b7dd36-a6d8-40f6-8a6d-c1ba2140aec6.jpeg)
+		 			
 		
-#Task Diagram
-Tasks
+# Task Diagram
+
+![Screen Shot 2022-10-04 at 3 40 44 PM Small](https://user-images.githubusercontent.com/86252234/193943903-e2b878fd-1a30-45c6-9ec4-ff9aed86980c.jpeg)
+
+# Tasks
 Game (Task 1), 25 ms: Where the game occurs
 Physical Inputs: Start button, reset button
 Non physical inputs: 
-From Buzzer Task: bool StartG, pWsong, pLsong
-From Jump Task: bool here
-From itself: int counter, int lvl, int del, bool keepG, bool lose, and int k
-From reset Button: bool counter, int lvl, int speeder, int del, bool keepG, bool lose, int k
+	From Buzzer Task: bool StartG, pWsong, pLsong
+	From Jump Task: bool here
+	From itself: int counter, int lvl, int del, bool keepG, bool lose, and int k
+	From reset Button: bool counter, int lvl, int speeder, int del, bool keepG, bool lose, int k
 Physcial Outputs:
-Idle screen
-Win screen (uses int lvl)
-Lose screen (uses int lvl)
-In Game screen (uses k)
+	Idle screen
+	Win screen (uses int lvl)
+	Lose screen (uses int lvl)
+	In Game screen (uses k)
 Outputs
-Buzzer Task: bool pSong, bool pWsong, bool pLsong
-Motor Task: through bool keepG, bool Lose, int Speeder
-Jump Task: bool here
-Jump (Task 2), 50 ms: Controlling the movement of the dot
-Physcial Inputs: Jump by pressing JUMP BUTTON
-Non Physical Inputs: bool here
+	Buzzer Task: bool pSong, bool pWsong, bool pLsong
+	Motor Task: through bool keepG, bool Lose, int Speeder
+	Jump Task: bool here
+	Jump (Task 2), 50 ms: Controlling the movement of the dot
+	Physcial Inputs: Jump by pressing JUMP BUTTON
+	Non Physical Inputs: bool here
 Physical Output: 
-Jump Sound
-Jump on LCD
-Non Physical Ouput: bool here
-Buzzer (Task 3), 250 ms: Plays songs
+	Jump Sound
+	Jump on LCD
+	Non Physical Ouput: bool here
+	Buzzer (Task 3), 250 ms: Plays songs
 Non physical input:
-From Game: bool pSong, bool pWsong, bool pLsong
-Non physical output: bool startG, bool pWSong, bool pLsong
-Physical Output: buzzer sounds
-Motor (Task 4), 250 ms: Control motor and Fan
+	From Game: bool pSong, bool pWsong, bool pLsong
+	Non physical output: bool startG, bool pWSong, bool pLsong
+	Physical Output: buzzer sounds
+	Motor (Task 4), 250 ms: Control motor and Fan
 Non physcial Inputs:
-From Game: bool KeepG, bool lose, int speeder
+	From Game: bool KeepG, bool lose, int speeder
 Physical Output: motor movement
 
+# SyncSMs (4)
 
-
-
-
-
-
-
-
-
-
-
-
-SyncSMs (4)
-
+![Screen Shot 2022-10-04 at 3 41 48 PM Small](https://user-images.githubusercontent.com/86252234/193944127-a37f9e2c-5bc0-4dc0-bfbf-55fefd733a07.jpeg)
 
 
 
