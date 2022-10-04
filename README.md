@@ -1,11 +1,14 @@
-# Dot-Jump
+# Dot Jump Nicole Boie
 # CS/EE 120B Custom Laboratory Project Report
-# Dot Jump
-# Nicole Boie
-# June 9 2022
+June 9 2022
 
 # Introduction
 Dot Jump is a game where the user uses buttons to make a dot jump and avoid on coming objects. The more times a user avoids an object the higher the level goes. As the levels increase so does the speed of the on coming objects. The player loses when their dot collides with the on coming object. To win the player must survive all ten levels and then an additional ten seconds. Different sounds will play at the start, jump, win and lose. At the end of play, win or lose, the player will get to see their score, which is the number of levels passed.
+
+# Demo Videos
+https://youtu.be/H_95Dfrq58I 
+https://youtu.be/-CdgDrg8a38
+https://youtu.be/RM6ZrBSmg5A
 
 # Changes
 In the original plan for the game, there was going to be increased objects per level. However the increased speed made the game difficult enough to win. With the increasing of the objects the game would lose before much of an increase to speed, and rarely (if ever) be able to win the game.
