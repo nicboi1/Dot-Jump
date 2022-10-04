@@ -63,7 +63,7 @@ PCD8544.h: This library is used so arduino can interact with the Nokia 5110 LCD.
 # Wiring Diagram		 	 	 		
 			 		
 
-	![Alt text][Screen Shot 2022-10-04 at 3 30 11 PM](https://user-images.githubusercontent.com/86252234/193942272-10159181-c6d8-4cec-b1f7-005a1e0e33e8.png)
+	![Screen Shot 2022-10-04 at 3 30 11 PM](https://user-images.githubusercontent.com/86252234/193942272-10159181-c6d8-4cec-b1f7-005a1e0e33e8.png)
 
 
 	 	 	 		
