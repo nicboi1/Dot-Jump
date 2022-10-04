@@ -31,7 +31,7 @@ Output on Buzzer: Start Song, Jump Note, Win Song, Lose Song
 
 Output on motor/fan: ON (increases in speed in game), OFF (out of game)
 
-Instructions and Scenarios:
+# Instructions and Scenarios:
 
 When the game is run the LCD lights up with a start screen (“DOT.JUMP”) int the center.
 
@@ -113,60 +113,60 @@ Physical Inputs: Start button, reset button
 
 Non physical inputs: 
 
-	From Buzzer Task: bool StartG, pWsong, pLsong
+	 (&nbsp;)From Buzzer Task: bool StartG, pWsong, pLsong
 	
-	From Jump Task: bool here
+	(&nbsp;)From Jump Task: bool here
 	
-	From itself: int counter, int lvl, int del, bool keepG, bool lose, and int k
+	(&nbsp;)From itself: int counter, int lvl, int del, bool keepG, bool lose, and int k
 	
-	From reset Button: bool counter, int lvl, int speeder, int del, bool keepG, bool lose, int k
+	(&nbsp;)From reset Button: bool counter, int lvl, int speeder, int del, bool keepG, bool lose, int k
 	
 Physcial Outputs:
 
-	Idle screen
+	(&nbsp;)Idle screen
 	
-	Win screen (uses int lvl)
+	(&nbsp;)Win screen (uses int lvl)
 	
-	Lose screen (uses int lvl)
+	(&nbsp;)Lose screen (uses int lvl)
 	
-	In Game screen (uses k)
+	(&nbsp;)In Game screen (uses k)
 	
 Outputs
-	Buzzer Task: bool pSong, bool pWsong, bool pLsong
+	(&nbsp;)Buzzer Task: bool pSong, bool pWsong, bool pLsong
 	
-	Motor Task: through bool keepG, bool Lose, int Speeder
+	(&nbsp;)Motor Task: through bool keepG, bool Lose, int Speeder
 	
-	Jump Task: bool here
+	(&nbsp;)Jump Task: bool here
 	
-	Jump (Task 2), 50 ms: Controlling the movement of the dot
+	(&nbsp;)Jump (Task 2), 50 ms: Controlling the movement of the dot
 	
-	Physcial Inputs: Jump by pressing JUMP BUTTON
+	(&nbsp;)Physcial Inputs: Jump by pressing JUMP BUTTON
 	
-	Non Physical Inputs: bool here
+	(&nbsp;)Non Physical Inputs: bool here
 	
 Physical Output: 
 
-	Jump Sound
+	(&nbsp;)Jump Sound
 	
-	Jump on LCD
+	(&nbsp;)Jump on LCD
 	
-	Non Physical Ouput: bool here
+	(&nbsp;)Non Physical Ouput: bool here
 	
-	Buzzer (Task 3), 250 ms: Plays songs
+	(&nbsp;)Buzzer (Task 3), 250 ms: Plays songs
 	
 Non physical input:
 
-	From Game: bool pSong, bool pWsong, bool pLsong
+	(&nbsp;)From Game: bool pSong, bool pWsong, bool pLsong
 	
-	Non physical output: bool startG, bool pWSong, bool pLsong
+	(&nbsp;)Non physical output: bool startG, bool pWSong, bool pLsong
 	
-	Physical Output: buzzer sounds
+	(&nbsp;)Physical Output: buzzer sounds
 	
-	Motor (Task 4), 250 ms: Control motor and Fan
+	(&nbsp;)Motor (Task 4), 250 ms: Control motor and Fan
 	
 Non physcial Inputs:
 
-	From Game: bool KeepG, bool lose, int speeder
+	(&nbsp;)From Game: bool KeepG, bool lose, int speeder
 	
 Physical Output: motor movement
 
