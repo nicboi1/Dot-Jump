@@ -7,8 +7,11 @@ Dot Jump is a game where the user uses buttons to make a dot jump and avoid on c
 
 # Demo Videos
 https://youtu.be/H_95Dfrq58I 
+
 https://youtu.be/-CdgDrg8a38
+
 https://youtu.be/RM6ZrBSmg5A
+
 
 # Changes
 In the original plan for the game, there was going to be increased objects per level. However the increased speed made the game difficult enough to win. With the increasing of the objects the game would lose before much of an increase to speed, and rarely (if ever) be able to win the game.
